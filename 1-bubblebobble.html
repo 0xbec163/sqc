@@ -25,14 +25,14 @@ main {
 <body>
   <main>
     <h1>Let's BUBBLE BOBBLE!</h1>
-    <p>
-      <script>
+    <p id='output'></p>
+    <script>
 const bubbleBobble = function () {
 
 }
-bubbleBobble()
-      </script>
-    </p>
+const output = document.getElementById('output')
+output.innerHTML = bubbleBobble()
+    </script>
   </main>
 </body>
 </html>
